@@ -80,7 +80,7 @@ def main():
         print("Player 1 plays a card from their hand")
         player_1_card = player_1_hand.pop(0)
         print(f"player_1_card: {player_1_card}")
-        input("Continue?...")
+        #input("Continue?...")
 
         print("Player 2 plays a card from their hand")
         player_2_card = player_2_hand.pop(0)
