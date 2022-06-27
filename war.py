@@ -63,7 +63,7 @@ def war(player_1_hand, player_2_hand):
         player_2_hand.append(player_2_war_hand) # Get cards back
         player_2_hand.append(player_2_war_card)
     else:
-        print("FUCK! ")
+        print("Error: Double-War not implemented.") # TODO: Call war recursively with deck size validation.
     pass
 
 
