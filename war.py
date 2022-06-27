@@ -1,4 +1,4 @@
-# A probably shitty implementation of the Game of War
+# A not-so-perfect implementation of the Game of War
 # Authors: Lauren Mancewicz & Taylor Sly
 
 import random
@@ -64,7 +64,7 @@ def war(player_1_hand, player_2_hand):
         player_2_hand.append(player_2_war_card)
     else:
         print("Error: Double-War not implemented.") # TODO: Call war recursively with deck size validation.
-    pass
+    return
 
 
 def main():
